@@ -1,15 +1,15 @@
 Presenting **DP-Visualizer**, the best way to learn dynamic programming. A visual tool to help understand and explore dynamic programming (DP) concepts through intuitive and interactive graphical representations.
 
 ## Features:
-i) Interactive Visualizations for 5 DP algorithms: Fibonacci Sequence , Coin Change Problem , 0/1 Knapsack Problem , Longest Common Subsequence , Longest 
+1) Interactive Visualizations for 5 DP algorithms: Fibonacci Sequence , Coin Change Problem , 0/1 Knapsack Problem , Longest Common Subsequence , Longest 
    Increasing Subsequence
-ii) Light/Dark Theme toggle
-iii) Play/Pause animation controls
-iv) Step-by-step navigation
-v)  Adjustable animation speed
-vi) DP Table visualization with real-time cell highlighting
-vii) Detailed explanations displayed for every computation step
-viii) Responsive design that works on desktops, tablets, and mobile devices
+2) Light/Dark Theme toggle
+3) Play/Pause animation controls
+4) Step-by-step navigation
+5) Adjustable animation speed
+6) DP Table visualization with real-time cell highlighting
+7) Detailed explanations displayed for every computation step
+8) Responsive design that works on desktops, tablets, and mobile devices
 
 ## How it Works? 
 1) Choose a dynamic programming problem from the list.
