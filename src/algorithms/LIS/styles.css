@@ -1,0 +1,153 @@
+.lis-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.problem-section,
+.solution-section,
+.visualization-section {
+  background-color: var(--paper);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
+}
+
+.visualization-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.control-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.control-panel .buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.speed-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dp-display {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+
+.dp-table-container,
+.explanation-container {
+  flex: 1;
+  background-color: var(--paper);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
+}
+
+.input-sequence {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.sequence-card {
+  background-color: var(--bg-color);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px;
+  min-width: 60px;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.sequence-card.highlighted {
+  background-color: var(--highlight);
+  transform: scale(1.05);
+  box-shadow: var(--shadow-md);
+}
+
+.lis-index {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.lis-value {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.lis-path {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.lis-path-card {
+  background-color: var(--highlight);
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.explanation-content {
+  padding: 12px;
+  background-color: var(--bg-color);
+  border-radius: 6px;
+  border-left: 3px solid var(--primary);
+}
+
+.result {
+  margin-top: 12px;
+  padding: 8px;
+  background-color: var(--highlight);
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.step-info {
+  text-align: center;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .dp-display {
+    flex-direction: column;
+  }
+
+  .control-panel {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+}

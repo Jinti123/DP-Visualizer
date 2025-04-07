@@ -1,0 +1,25 @@
+.coin-change-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.coin-highlight {
+  background-color: #ffeb3b !important;
+  transition: background-color 0.3s ease;
+}
+
+.coin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.coin-table th, .coin-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.coin-table th {
+  background-color: #f2f2f2;
+}

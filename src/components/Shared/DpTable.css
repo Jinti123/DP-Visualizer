@@ -1,0 +1,66 @@
+.dp-table-wrapper {
+  margin: 20px auto;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.dp-table-box {
+  min-width: max-content;
+  background-color: #f6f8ff;
+  padding: 16px;
+  border: 2px solid #e0e6ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: black; /* Force text color to black */
+}
+
+th,
+td {
+  padding: 8px 16px;
+  text-align: center;
+  border: 1px solid #d0d7ef;
+  white-space: nowrap;
+  color: black; /* Force text color to black */
+}
+
+.amount-header {
+  font-weight: bold;
+  color: #3a3aff;
+}
+
+.label-cell {
+  font-weight: bold;
+  color: #a020f0;
+}
+
+.highlighted {
+  background-color: #fff3c4;
+  font-weight: bold;
+  color: black; /* Force text color to black */
+}
+
+/* Dark mode override - ensure text stays black */
+@media (prefers-color-scheme: dark) {
+  .dp-table-box {
+    background-color: #f6f8ff; /* Keep light background */
+    border-color: #e0e6ff; /* Keep light border */
+  }
+  
+  table, th, td, .highlighted {
+    color: black !important; /* Force black text in dark mode */
+  }
+  
+  .amount-header {
+    color: #3a3aff !important; /* Maintain original color */
+  }
+  
+  .label-cell {
+    color: #a020f0 !important; /* Maintain original color */
+  }
+}
